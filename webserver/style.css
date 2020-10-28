@@ -1,0 +1,134 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+#top{
+    width: 100%;
+    height: 90px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#map {
+    width: 70%;
+    height:100%;
+    float: left;
+}
+#right{
+    width: 30%;
+    height: 100%;
+    background-color: #EEEEEE;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    transition: all 0.5s;
+}
+.nothing{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.nothing_txt{
+    align-self: center;
+    text-align: center;
+}
+.right_top{
+    display: flex;
+    height: 150px;
+    align-content: center;
+    justify-content: center;
+}
+.pollution{
+    height: 150px;
+    width: 150px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+.pollution_nb{
+    text-align: center;
+    flex: 3;
+    font-size: 95px;
+}
+.pollution_txt{
+    text-align: center;
+    flex: 1;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.district_name{
+    flex: 1;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    align-self: center;
+}
+.right_transp{
+    flex: 1;
+    margin-top: 30px;
+}
+.right_vehicle_cat{
+    display: flex;
+    flex-direction: row;
+}
+.right_vehicle_logo{
+    flex: 1;
+    padding: 2px;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    transition: all linear 0.10s;
+    opacity: 0.5;
+}
+.right_vehicle_logo:last-child{
+    border-right: none;
+}
+.right_vehicle_logo:hover, .right_vehicle_logo.selected{
+    opacity: 1;
+}
+.right_vehicle_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+.right_vehicle_content_bloc{
+    display: none;
+    flex: 1;
+    width: 80%;
+}
+.right_vehicle_content_bloc.selected{
+    display: block;
+}
+.vehicle_line{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+.vehicle_line_sentence{
+    flex: 2;
+}
+.vehicle_line_input{
+    flex: 1;
+}
