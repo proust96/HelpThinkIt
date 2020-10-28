@@ -1,6 +1,6 @@
 # HelpThinkIt
 
-## Details.pdf
+## Details.pdf ([here](Details.pdf))
 We recommend you check out this file first as it contains valuable insights on our project.
 
 ## /presentation
